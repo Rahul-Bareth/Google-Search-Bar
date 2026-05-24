@@ -1,3 +1,8 @@
+body {
+  background-color: rgb(239, 249, 249);
+  padding: 80px;
+}
+
 .div{
   font-family: Roboto;
   text-align: center;
@@ -5,7 +10,7 @@
 
 .google-logo{
   width: 300px;
-  margin-bottom: 0;
+  margin-bottom: 15px;
 }
 
 .text-box{
@@ -30,10 +35,6 @@
   padding-left: 10px;
   padding-right: 10px;
   border: none;
-
-
-
-
 }
 
 .btn2{
