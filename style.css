@@ -1,6 +1,9 @@
 body {
   background-color: rgb(239, 249, 249);
   padding: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .div{
@@ -43,4 +46,14 @@ body {
   padding-bottom: 9px;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+@media (max-width: 420px) {
+  body {
+    flex-direction: column;
+  }
+
+  .text-box {
+    width: 80%;
+  }
 }
